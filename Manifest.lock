@@ -1,14 +1,14 @@
 PODS:
-  - Alamofire (5.6.1)
+  - Alamofire (5.6.2)
   - AloeStackView (1.2.0)
   - Amplitude-iOS (4.9.3)
-  - AppCenter (4.4.2):
-    - AppCenter/Analytics (= 4.4.2)
-    - AppCenter/Crashes (= 4.4.2)
-  - AppCenter/Analytics (4.4.2):
+  - AppCenter (4.4.3):
+    - AppCenter/Analytics (= 4.4.3)
+    - AppCenter/Crashes (= 4.4.3)
+  - AppCenter/Analytics (4.4.3):
     - AppCenter/Core
-  - AppCenter/Core (4.4.2)
-  - AppCenter/Crashes (4.4.2):
+  - AppCenter/Core (4.4.3)
+  - AppCenter/Crashes (4.4.3):
     - AppCenter/Core
   - Cache (6.0.0)
   - ClusterKit (0.5.0):
@@ -27,13 +27,13 @@ PODS:
   - Demure (0.0.7)
   - DeviceKit (4.7.0)
   - Differ (1.4.5)
-  - FloatingPanel (2.5.3)
-  - Hero (1.6.1)
+  - FloatingPanel (2.5.4)
+  - Hero (1.6.2)
   - incetro-http-transport (5.2.1):
     - Alamofire (~> 5)
   - InputMask (6.1.0)
   - Kingfisher (5.7.1)
-  - lottie-ios (3.4.0)
+  - lottie-ios (3.5.0)
   - Mapbox-iOS-SDK (6.3.0):
     - MapboxMobileEvents (~> 0.10.4)
   - MapboxAccounts (2.3.1)
@@ -47,7 +47,7 @@ PODS:
   - MapboxDirections (1.2.0):
     - Polyline (~> 5.0)
     - Turf (~> 1.0)
-  - MapboxGeocoder.swift (0.14.0)
+  - MapboxGeocoder.swift (0.15.0)
   - MapboxMobileEvents (0.10.14)
   - MapboxNavigation (1.4.2):
     - Mapbox-iOS-SDK (~> 6.0)
@@ -65,8 +65,8 @@ PODS:
     - RealmSwift
   - Nimble (10.0.0)
   - ObjectMapper (4.2.0)
-  - Pageboy (3.6.2)
-  - Polyline (5.0.2)
+  - Pageboy (3.7.0)
+  - Polyline (5.1.0)
   - Realm (10.7.7):
     - Realm/Headers (= 10.7.7)
   - Realm/Headers (10.7.7)
@@ -79,18 +79,18 @@ PODS:
   - Sentry (5.1.9):
     - Sentry/Core (= 5.1.9)
   - Sentry/Core (5.1.9)
-  - SkeletonView (1.29.2)
+  - SkeletonView (1.30.3)
   - Solar (2.1.0)
   - swift-layout (0.0.2)
-  - SwiftGen (6.5.1)
-  - SwiftLint (0.47.1)
+  - SwiftGen (6.6.2)
+  - SwiftLint (0.49.1)
   - swifty-toast (0.0.6)
-  - SwiftyBeaver (1.9.5)
+  - SwiftyBeaver (1.9.6)
   - Swinject (2.7.1)
   - SwinjectAutoregistration (2.8.1):
     - Swinject (= 2.7.1)
-  - Tabman (2.12.0):
-    - Pageboy (~> 3.6.0)
+  - Tabman (2.13.0):
+    - Pageboy (~> 3.7.0)
   - Turf (1.2.0)
   - TweenKit (1.0.3)
   - uikit-actions (0.0.2)
@@ -145,11 +145,9 @@ DEPENDENCIES:
   - YetAnotherAnimationLibrary
 
 SPEC REPOS:
-  trunk:
-    - Alamofire
+  https://github.com/CocoaPods/Specs.git:
     - AloeStackView
     - Amplitude-iOS
-    - AppCenter
     - Cache
     - ClusterKit
     - Codex
@@ -158,45 +156,48 @@ SPEC REPOS:
     - CropViewController
     - CRRefresh
     - Demure
-    - DeviceKit
     - Differ
-    - FloatingPanel
-    - Hero
     - InputMask
     - Kingfisher
-    - lottie-ios
-    - Mapbox-iOS-SDK
     - MapboxAccounts
     - MapboxCommon
     - MapboxCoreNavigation
     - MapboxDirections
-    - MapboxGeocoder.swift
-    - MapboxMobileEvents
     - MapboxNavigation
     - MapboxNavigationNative
     - MapboxSpeech
     - MBProgressHUD
     - Message
-    - Nimble
     - ObjectMapper
-    - Pageboy
-    - Polyline
-    - Realm
-    - RealmSwift
-    - SkeletonView
     - Solar
-    - SwiftGen
-    - SwiftLint
     - swifty-toast
-    - SwiftyBeaver
-    - Swinject
     - SwinjectAutoregistration
-    - Tabman
     - Turf
     - TweenKit
     - uikit-actions
     - UIScrollView-InfiniteScroll
     - YetAnotherAnimationLibrary
+  trunk:
+    - Alamofire
+    - AppCenter
+    - DeviceKit
+    - FloatingPanel
+    - Hero
+    - lottie-ios
+    - Mapbox-iOS-SDK
+    - MapboxGeocoder.swift
+    - MapboxMobileEvents
+    - Nimble
+    - Pageboy
+    - Polyline
+    - Realm
+    - RealmSwift
+    - SkeletonView
+    - SwiftGen
+    - SwiftLint
+    - SwiftyBeaver
+    - Swinject
+    - Tabman
 
 EXTERNAL SOURCES:
   CMHUD:
@@ -235,10 +236,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/Incetro/layout
 
 SPEC CHECKSUMS:
-  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
   AloeStackView: 8a4ce0efa08128dd78d538372f60c76c224034bb
   Amplitude-iOS: 122e026c44db8460e5efcf84859aa290a0ae9786
-  AppCenter: b0eca112a27b71e97488ffa1949ee38c7abd4b79
+  AppCenter: 3fd04aa1b166e16fdb03ec81dabe488aece83fbd
   Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
   ClusterKit: 6d4b2fdfdd2a74a386fd67dd60a29a69851745e0
   CMHUD: 8881a345dc809509ad876b2327dafe0a8f0e1207
@@ -250,18 +251,18 @@ SPEC CHECKSUMS:
   Demure: f052b85a2317371c2cb1964e188679bcf8c1a070
   DeviceKit: c870c34f7c0e0ac4caa6f052e6efe7ef1472c5a1
   Differ: 3b6bd78e2b20cc795d9a86f7641d087524e4273e
-  FloatingPanel: 3cee815e9ded75b632543fa73ab655a1ef941452
-  Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
+  FloatingPanel: 387377aa46a9b088e5f8f5f2a8d2c00c61e67298
+  Hero: c69009dbc9e2f0472e081adc644dba05fcedae72
   incetro-http-transport: d9393f1b389914d5e9fea76954700eb3ab30ea70
   InputMask: 71d291dc54d2deaeac6512afb6ec2304228c0bb7
   Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
-  lottie-ios: 69495122151a378fdc7d1bb4c5930347e37baf1f
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
   Mapbox-iOS-SDK: 6a67397df2bcafe5d2851604192aa8de6f8d6c89
   MapboxAccounts: e40ef575df5d8b7ef33d0504ff2d393f4fde0455
   MapboxCommon: 2c4ef00c10cba35302835423f4d63c6f3dea4bc4
   MapboxCoreNavigation: fd24751d42a53c2ca4ddebd55f49a11b925f08be
   MapboxDirections: 383df0cd65784897c2269750a42d9654c832f0ce
-  MapboxGeocoder.swift: a288e92ec13fbd65bbdfd7c54c61b0e80d19e734
+  MapboxGeocoder.swift: 730782e5f4324b7283a0f6c740c180f3086158e2
   MapboxMobileEvents: 5a172cc9bbf8ac0e45ba86095cbee685ede248cc
   MapboxNavigation: b596028515707e1b4b94d22f298a7c7000712e6d
   MapboxNavigationNative: e811b9beed18c01e4693e29f843d36b4a760fa61
@@ -271,28 +272,28 @@ SPEC CHECKSUMS:
   Monreau: 1fce7f19135129366dabc0833a463ff5ac08580c
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
-  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
-  Polyline: fce41d72e1146c41c6d081f7656827226f643dff
+  Pageboy: fe646118f7168960058bea7a96038386aa7c0da8
+  Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
   Realm: 8010af8b7a576ba501729bcbc54a3cd1f1f7dca3
   RealmSwift: dc17e6d649c12a8996f9e962c3fe6cef356885c4
   SDAO: e1945854c9616a80703495b01b9ae2fa3046f238
   Sentry: 81f7f2bd3cb041137ea7efcde3aa5ad0d5a67632
-  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+  SkeletonView: f5b099c708e42a278079a12bcaaf71c303be65a3
   Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
   swift-layout: fbba262013629381d4b6363b92639b651a9d3a75
-  SwiftGen: a6d22010845f08fe18fbdf3a07a8e380fd22e0ea
-  SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
+  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
+  SwiftLint: 32ee33ded0636d0905ef6911b2b67bbaeeedafa5
   swifty-toast: d20703cc2576976d121280da78fffe78de2e50f3
-  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+  SwiftyBeaver: c8241b4745aa269a78ca5a022532c6915e948536
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   SwinjectAutoregistration: e83e362da3ca9c64a68290e89efbc40e378dff12
-  Tabman: 447a50447ed2869c39ab3b1a779327e43e067c4e
+  Tabman: 66ea44c44488327ec20f3c8dc5554a5d22f5908c
   Turf: aaa060138b11a8e979a19e6d81091d156a31bc58
   TweenKit: 7f32dbdda44609be0cfb3fe853af9562cd1e3564
   uikit-actions: 676bf67ebbb12057eeb579bdff93d0ba3a4d38dd
   UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
   YetAnotherAnimationLibrary: 7f808b10c2d193dd3e82407e722fa60aa0bdff2d
 
-PODFILE CHECKSUM: 4c9dcc983139c9e385763f27fcb589c505bfee0b
+PODFILE CHECKSUM: be7e6c61d6108537859d39ece945c2d3bd64acaa
 
 COCOAPODS: 1.10.1
